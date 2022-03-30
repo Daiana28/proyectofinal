@@ -1,0 +1,86 @@
+//Estilo de html contactame
+
+.gridmain2{
+    background-color: #F9F9F9;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+
+}
+
+#h1contactame{
+    color:#FCC704;
+    font-family: 'DM Serif Text', serif;
+}
+
+
+// formulario
+
+.gridform{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 15px;
+    height: 600px;
+    justify-content: center;
+}
+
+form{
+    background-color: #D2C7E3;
+    height: 502px;
+    width: 474px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h4{
+    font-family: 'DM Serif Text', serif;
+}
+
+.contacto2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#whatsapp2{
+    display: flex;
+    align-items: center;
+}
+
+// footer
+
+.redessociales{
+    width: auto;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 30% 20% 50%;
+}
+
+
+#instagram{
+    width: 25px;
+    height: 25px;
+}
+
+#facebook{
+    width: 25px;
+    height: 25px;
+}
+
+#whatsapp{
+    width: 25px;
+    height: 25px;
+}
+#pie{
+    background-color: #D2C7E3;
+    display: flex;
+    align-items: center;
+
+}
+
+#legales{
+    color: white;
+}

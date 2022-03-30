@@ -1,0 +1,154 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+
+/* Fuente tipográfica determinada para la página */
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Especificaciones de la parte superior - estructura */
+
+header{
+   background-color: #FCC704;
+    // background-color: #D2C7E3;  - queda más "prolijo" pero necesito usar más colores o variables - ver total puedo usarlo solo en el home y en otros links puedo usar el amarillo.
+    width: auto;
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items:baseline;
+}
+
+#headertext{
+    color: white;
+    text-align: center;
+    font-weight:bold;
+}
+
+/* Presentación de la página - logo*/
+
+#imglogo{
+    width: 20%;
+    padding-top: 10px;
+    display: flex;
+    align-content: center ;    
+}
+
+/* Menú horizontal / Botonera con flex box */
+
+.menu{
+    display: flex;
+    padding-bottom: 25px;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home{
+    color:#67BDA9;
+    font-weight: bold;
+}
+
+.sinEfectos {
+    font-family: 'roboto', sans-serif;
+    color: black;
+    background-color:white;
+    border-radius:6px;
+    border:1px solid white;
+    display:inline-block;
+    cursor:pointer;
+    font-weight:normal;
+    padding:6px 24px;
+    text-decoration:none;
+}
+
+/* Sección "bienvenidos a mi emprendimiento" - leer más */
+
+.gridmain{
+    background-color: #F9F9F9;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+h1{
+    font-family: 'DM Serif Text', serif;
+} 
+
+#templateportada{
+    width: 800px;
+    height: 500px;
+    margin-right: 0%; 
+    
+}
+
+main{
+    margin-left: 20px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-align: left;
+}
+
+a{
+  font-family: 'roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: #67BDA9;
+  border-radius: 6px;
+  border: 1px solid #72D6BE;
+  display: inline-block;
+  font-weight: bold;
+  padding: 6px 24px;
+
+}
+
+/* Sección Footer - redes sociales, volver al menu principal y derechos */
+
+footer{
+    background-color: #D2C7E3;
+    width: auto;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+   
+}
+
+
+.redessociales{
+    width: auto;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 30% 20% 50%;
+
+}
+
+
+#instagram{
+    width: 25px;
+    height: 25px;
+}
+
+#facebook{
+    width: 25px;
+    height: 25px;
+}
+
+#whatsapp{
+    width: 25px;
+    height: 25px;
+}
+
+h6{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+/* Mediaqueries */

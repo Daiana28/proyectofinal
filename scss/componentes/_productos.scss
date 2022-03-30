@@ -1,0 +1,34 @@
+header{
+    background-color: #FCC704;
+     width: auto;
+     height: 35px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     display: flex;
+     align-items:baseline;
+ }
+ 
+ #headertext{
+     color: white;
+     text-align: center;
+     font-weight:bold;
+ }
+
+#titulo{
+        width: auto;
+        height: 100px;
+        margin-top: 30px;
+}
+
+ 
+.CatalogoProductos{ 
+     display: grid;
+     grid-row: 3;
+     grid-template-columns: 25% 25% 25% 25%;
+ }
+
+.card-body{
+    text-align: center;
+    
+
+}

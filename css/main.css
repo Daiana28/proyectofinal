@@ -1,0 +1,232 @@
+@charset "UTF-8";
+* {
+  margin: auto;
+  padding: auto; }
+
+/* Fuente tipográfica determinada para la página */
+html {
+  font-family: 'Roboto', sans-serif; }
+
+/* Especificaciones de la parte superior - estructura */
+header {
+  background-color: #FCC704;
+  width: auto;
+  height: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: baseline; }
+
+#headertext {
+  color: white;
+  text-align: center;
+  font-weight: bold; }
+
+/* Presentación de la página - logo*/
+#imglogo {
+  width: 20%;
+  padding-top: 10px;
+  display: flex;
+  align-content: center; }
+
+/* Menú horizontal / Botonera con flex box */
+.menu {
+  display: flex;
+  padding-bottom: 25px;
+  flex-direction: row;
+  font-family: 'Roboto', sans-serif; }
+
+.home {
+  color: #67BDA9;
+  font-weight: bold; }
+
+.sinEfectos {
+  font-family: 'roboto', sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid white;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 6px 24px;
+  text-decoration: none; }
+
+/* Sección "bienvenidos a mi emprendimiento" - leer más */
+.gridmain {
+  background-color: #F9F9F9;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 40% 60%; }
+
+h1 {
+  font-family: 'DM Serif Text', serif; }
+
+#templateportada {
+  width: 800px;
+  height: 500px;
+  margin-right: 0%; }
+
+main {
+  margin-left: 20px; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-align: left; }
+
+a {
+  font-family: 'roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: #67BDA9;
+  border-radius: 6px;
+  border: 1px solid #72D6BE;
+  display: inline-block;
+  font-weight: bold;
+  padding: 6px 24px; }
+
+/* Sección Footer - redes sociales, volver al menu principal y derechos */
+footer {
+  background-color: #D2C7E3;
+  width: auto;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 30% 35% 35%; }
+
+.redessociales {
+  width: auto;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 30% 20% 50%; }
+
+#instagram {
+  width: 25px;
+  height: 25px; }
+
+#facebook {
+  width: 25px;
+  height: 25px; }
+
+#whatsapp {
+  width: 25px;
+  height: 25px; }
+
+h6 {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: center; }
+
+/* Mediaqueries */
+.gridmain2 {
+  background-color: #F9F9F9;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center; }
+
+#h1contactame {
+  color: #FCC704;
+  font-family: 'DM Serif Text', serif; }
+
+.gridform {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 15px;
+  height: 600px;
+  justify-content: center; }
+
+form {
+  background-color: #D2C7E3;
+  height: 502px;
+  width: 474px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+h4 {
+  font-family: 'DM Serif Text', serif; }
+
+.contacto2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; }
+
+#whatsapp2 {
+  display: flex;
+  align-items: center; }
+
+.redessociales {
+  width: auto;
+  height: 100px;
+  display: grid;
+  grid-template-columns: 30% 20% 50%; }
+
+#instagram {
+  width: 25px;
+  height: 25px; }
+
+#facebook {
+  width: 25px;
+  height: 25px; }
+
+#whatsapp {
+  width: 25px;
+  height: 25px; }
+
+#pie {
+  background-color: #D2C7E3;
+  display: flex;
+  align-items: center; }
+
+#legales {
+  color: white; }
+
+#SobreMi {
+  color: #FCC704;
+  background-color: #F9F9F9;
+  font-family: 'DM Serif Text', serif;
+  text-align: left; }
+
+.gridmain3 {
+  background-color: #F9F9F9;
+  height: 570px;
+  display: grid;
+  grid-template-columns: 40% 60%; }
+
+.sobremitexto {
+  margin-right: 30px;
+  padding-right: 30px; }
+
+#Boss {
+  width: 400px;
+  height: 400px; }
+
+header {
+  background-color: #FCC704;
+  width: auto;
+  height: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: baseline; }
+
+#headertext {
+  color: white;
+  text-align: center;
+  font-weight: bold; }
+
+#titulo {
+  width: auto;
+  height: 100px;
+  margin-top: 30px; }
+
+.CatalogoProductos {
+  display: grid;
+  grid-row: 3;
+  grid-template-columns: 25% 25% 25% 25%; }
+
+.card-body {
+  text-align: center; }

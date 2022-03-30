@@ -1,0 +1,29 @@
+// Titulo de la página "sobre mi"
+
+#SobreMi{
+    color:#FCC704;
+    background-color: #F9F9F9;
+    font-family: 'DM Serif Text', serif;
+    text-align:left;
+    
+}
+
+
+.gridmain3{
+    background-color: #F9F9F9;
+    height: 570px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+.sobremitexto{
+    margin-right: 30px;
+    padding-right: 30px;
+
+}
+
+#Boss{
+    width: 400px;
+    height: 400px;
+}
